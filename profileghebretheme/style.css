@@ -170,8 +170,9 @@ nav ul li a:focus {
 nav ul li a:hover {
 	/*color: #900; */ 
 	border-bottom: 3px double #f00;  
-	background-color:#900;
-	color:#2B621D; 
+	background-color:#364232;
+	color:#2B621D;
+	padding: 2% 1%;
 
 
  } 
