@@ -169,12 +169,9 @@ nav ul li a:focus {
 
 nav ul li a:hover {
 	/*color: #900; */ 
-   border-bottom: 3px double #f00; 
-   
-    
-	background-color:#EEF2DC;
-	color:#2B621D;
-	height:40px;
+	border-bottom: 3px double #f00;  
+	background-color:#900;
+	color:#2B621D; 
 
 
  } 
@@ -653,6 +650,12 @@ h1, h2, h3, h4, h5, h6  {
 	display:block; 
 }
      
+}
+
+div#akismet_widget-3 {
+max-width: 50%;
+/* align-content: center; */
+margin: 0 auto;
 }
 
 
