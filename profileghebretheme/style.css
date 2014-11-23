@@ -496,6 +496,10 @@ body {
 #wrapper { 
 	background-image: none;  
 }
+
+.textwidget {
+text-align: center;
+}
 	  
 #logo {
 		width: 50px;
