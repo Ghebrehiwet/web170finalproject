@@ -121,8 +121,7 @@ nav ul
 
   padding: 0px;
   margin: 0px;
-  list-style: none;
-  position: relative;
+  list-style: none; 
   display: inline-block;
 }
 
