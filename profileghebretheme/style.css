@@ -163,13 +163,20 @@ nav ul li a:visited {
 
 nav ul li a:hover, 
 nav ul li a:focus {
-	color: #900;  
+	/*color: #900; */   
    border-bottom: 3px double #f00;
  }
 
 nav ul li a:hover {
-	color: #900;  
+	/*color: #900; */ 
    border-bottom: 3px double #f00; 
+   
+    
+	background-color:#EEF2DC;
+	color:#2B621D;
+	height:40px;
+
+
  } 
  
 
