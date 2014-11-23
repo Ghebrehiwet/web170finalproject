@@ -116,6 +116,15 @@ nav {
 
 
 /*Test this*/
+nav ul
+{
+
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
 
 nav ul li
 {
