@@ -108,7 +108,9 @@ nav {
 	height:40px;
 	margin:auto;
 	clear: both;
-	text-align: center;
+	/*text-align: center;*/
+	position: relative;
+	top: 40px;
 }
 
 
@@ -120,7 +122,7 @@ nav {
 nav ul
 {
 
-  padding: 0px;
+  padding: 5px;
   margin: 0px;
   list-style: none; 
 }
@@ -512,7 +514,7 @@ footer  {
 	  
  header {
 		/*padding: 20px 5px 20px 5px;*/
-		height: 160px;  
+		height: 200px;  
 	  }
 	  
 .search ul {  
@@ -674,7 +676,7 @@ margin: 0 auto;
 	header { 
 		padding: 10px;
 		padding-bottom: 30px;
-		height: 70px;
+		height: 100px;
 	}
 	
 	.search ul li {
