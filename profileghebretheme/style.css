@@ -511,8 +511,8 @@ footer  {
 	  }
 	  
  header {
-		padding: 20px 5px 20px 5px;
-		height: 80px;  
+		/*padding: 20px 5px 20px 5px;*/
+		height: 160px;  
 	  }
 	  
 .search ul {  
