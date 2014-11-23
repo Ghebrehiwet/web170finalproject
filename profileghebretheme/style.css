@@ -130,6 +130,15 @@ nav ul  li {
 	font-size: 1.3em; 
 }
 
+nav ul li a
+{
+	display: block;
+	text-decoration: none;
+	color: #EEF2DC;
+	font-size: 1em;
+}
+
+
 nav ul li > a  {
     color: #000; 
 	margin-bottom: 0.2em;
