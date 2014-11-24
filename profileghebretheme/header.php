@@ -33,8 +33,8 @@
 		<div id="wrapper"> <!--opening #wrapper -->
 			<header>
 				<h1>
-				  <a href="index.php">
-					<span><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></span> <!-- for SEO -->
+				  
+					<span><a href="index.php"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></a></span> <!-- for SEO -->
 					<img src="<?php bloginfo('template_url'); ?>/images/myimg.jpg" id="logo"  
 					  alt="My Logo"> <!-- for screen readers --> 	
 				  </a>
