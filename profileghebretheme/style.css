@@ -248,7 +248,7 @@ background: none;
 }
 
 div.post-box ul li {
-	margin-left: 10px;
+	margin-left: 20px;
 }
 
 .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
@@ -275,107 +275,7 @@ div.post-box ul li {
 
 .post .post-list.postmessage {
 	float:right; 
-}
-
-.post-list p {
-	clear: both;
-}
-
-.widget-title {
-	margin-top:2%;
-	margin-bottom: 1%;
-	border-bottom: 5px double #ccc;
-	
-}
-
-#direction { 
-	text-align: center;
-}
-
-#direction p{
-	display: inline-block; 
-	text-align: center;
-	clear: both;
-}
-
-#sidebar-right { 
-	float: right;
-	width: 25%;  
-	
-}
-
-#meta h5 {
-	float: left;
-	margin-right: 2em;
-	font-style: italic;
-	color: #008000;
-}
-
-#replyform {
-	width: 300px;
-	height: 180px;
-}
-
-#sidebar-right ul li { 
-	list-style: none;
-	font-size: 1em;
-	line-height: 125%; 
-}
-
-#sidebar-right ul li a { 
-	 color: #7F6B6B;
-}
-
-#sidebar-right ul li a:hover { 
-	 color: #468A33;
-}
-
-#sidebar-right ul li a:visited { 
-	 border-bottom: 5px double #C53A3C;
-}
-
-
-
-footer {
-	clear:both;
-	background-color: #9c3;
-	width: 100%;
-	overflow: hidden;
-}
-
-footer ul {
-
-}
-
-footer ul li {
-	display: inline-block
-}
-
-#validation  {
-	float: left;
-	width: 48%;
-}
-
-#copyright {
-	float: left;
-	width: 48%;
-}
-
-#copyright  ul  li {
-	display: block; 
-	padding: 10px; 
-}
-
-#copyright  ul  li a { 
-	color: #411718;  
-}
-
-#copyright  ul  li a:hover {  
-	border-bottom: 3px solid #74320F; 
-}
-
-
-/*Global link styles*/
+} vn ;.
 a:link,
 a:visited {
    color: #24890d;
