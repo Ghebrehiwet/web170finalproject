@@ -166,6 +166,7 @@ nav ul li a:visited {
 
 nav ul li a:visited { 
    color:#A51616; 
+
 }
 
 nav ul li a:hover, 
@@ -178,7 +179,7 @@ nav ul li a:hover {
 	/*color: #900; */ 
 	border-bottom: 3px double #f00; 
 	background-color:#EEF2DC; 
-	color:#fff; 
+	color:#000; 
 
 
  } 
