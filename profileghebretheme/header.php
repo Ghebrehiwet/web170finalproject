@@ -42,9 +42,9 @@
                <div class="search">
 					<form><?php get_sidebar('header'); ?></form>
                     <ul> 
-						<li><a href="javascript:;"><img src="<?php bloginfo('template_url'); ?>/images/facebook11.png" alt="facebook icon"></a></li>
-						<li><a href="javascript:;"><img src="<?php bloginfo('template_url'); ?>/images/linkedin7.png" alt="linkedIn"></a></li>
-						<li><a href="javascript:;"><img src="<?php bloginfo('template_url'); ?>/images/github7.png" alt="GitHub"></a></li> 
+						<li><a href="https://www.facebook.com/ghebrehiwet.berhane"><img src="<?php bloginfo('template_url'); ?>/images/facebook11.png" alt="facebook icon"></a></li>
+						<li><a href="https://github.com/Ghebrehiwet"><img src="<?php bloginfo('template_url'); ?>/images/linkedin7.png" alt="linkedIn"></a></li>
+						<li><a href="https://github.com/Ghebrehiwet"><img src="<?php bloginfo('template_url'); ?>/images/github7.png" alt="GitHub"></a></li> 
 					</ul>
                      
                  </div>
