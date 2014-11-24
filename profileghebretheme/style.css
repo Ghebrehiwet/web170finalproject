@@ -183,8 +183,10 @@ nav ul li a:hover {
 
 
  } 
-/*end test*/
-
+ 
+nav.post-nav {
+background: none;
+}
 
 
 
