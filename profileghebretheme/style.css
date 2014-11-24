@@ -119,13 +119,10 @@ nav {
 
 
 
-/*Test this*/
+ 
 nav ul {
 	 height: auto;
-    padding: 4px 0px;
-    /*margin-right: 3em;
-	background-image: url(img/navback.png);
-	border-radius: 15px;*/
+    padding: 4px 0px; 
 	background-color: wheat;
 }
 
@@ -179,10 +176,10 @@ nav ul li a:focus {
 
 nav ul li a:hover {
 	/*color: #900; */ 
-	border-bottom: 3px double #f00;  
+	border-bottom: 3px double #f00; 
+	background-color:#EEF2DC;	
 	background-color:#364232;
-	color:#2B621D;
-	margin: 2% 1%;
+	color:#2B621D; 
 
 
  } 
@@ -735,6 +732,7 @@ margin: 0 auto;
 	nav {
 		position: relative;
 		min-height: 40px;
+		background-color: none;
 
 		/*position: relative;
 		top: 60px;
