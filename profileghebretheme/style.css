@@ -165,7 +165,7 @@ nav ul li a:visited {
 }
 
 nav ul li a:visited { 
-   color:#364232; 
+   color:#A51616; 
 }
 
 nav ul li a:hover, 
@@ -177,9 +177,8 @@ nav ul li a:focus {
 nav ul li a:hover {
 	/*color: #900; */ 
 	border-bottom: 3px double #f00; 
-	background-color:#EEF2DC;	
-	background-color:#364232;
-	color:#2B621D; 
+	background-color:#EEF2DC; 
+	color:#fff; 
 
 
  } 
@@ -732,7 +731,7 @@ margin: 0 auto;
 	nav {
 		position: relative;
 		min-height: 40px;
-		background-color: none;
+		background: none;
 
 		/*position: relative;
 		top: 60px;
