@@ -33,11 +33,11 @@
 		<div id="wrapper"> <!--opening #wrapper -->
 			<header>
 				<h1>
-				  <span><a href="index.php">
-					 <?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?> <!-- for SEO -->
+				  <a href="index.php">
+					 <span><?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?> </span><!-- for SEO -->
 					<img src="<?php bloginfo('template_url'); ?>/images/myimg.jpg" id="logo"  
 					  alt="My Logo"> <!-- for screen readers --> 	
-				  </a></span>
+				  </a>
 				</h1> 
                <div class="search">
 					<form><?php get_sidebar('header'); ?></form>
