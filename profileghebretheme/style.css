@@ -120,23 +120,24 @@ nav {
 
 
 /*Test this*/
-nav ul
-{
-
-  padding: 5px;
-  margin: 0px;
-  list-style: none; 
+nav ul {
+	 height: auto;
+    padding: 4px 0px;
+    /*margin-right: 3em;
+	background-image: url(img/navback.png);
+	border-radius: 15px;*/
+	background-color: wheat;
 }
 
-nav ul li
-{
-height:100%; 
-display: inline-block;
-}
-
-nav > ul > li
-{
+nav ul  li {
 	display: inline-block;
+	margin-right: 2em;
+	padding: 10px; 
+	text-transform:uppercase;
+	text-align:center; 
+	text-decoration: none;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.3em; 
 }
 
 nav ul li a
@@ -147,29 +148,44 @@ nav ul li a
 	font-size: 1em;
 }
 
-nav ul li:hover {
 
-	height:40px;
+nav ul li > a  {
+    color: #000; 
+	margin-bottom: 0.2em;
 }
-nav ul li a:hover
-{
-	background-color:#EEF2DC;
+
+nav ul li a:active  {
+    background-color:#588624;  
+}
+
+
+ 
+nav ul li a:link, 
+nav ul li a:visited { 
+   text-decoration:none;
+   font-size: 1em;
+   
+}
+
+nav ul li a:visited { 
+   color:#364232; 
+}
+
+nav ul li a:hover, 
+nav ul li a:focus {
+	/*color: #900; */   
+   border-bottom: 3px double #f00;
+ }
+
+nav ul li a:hover {
+	/*color: #900; */ 
+	border-bottom: 3px double #f00;  
+	background-color:#364232;
 	color:#2B621D;
-	height:40px;
-
-}
-nav ul li > a
-{
-	padding-right:42px;
+	margin: 2% 1%;
 
 
-}
-
-nav ul li > a:first-child
-{
-	padding-left:40px;
-
-}
+ } 
 /*end test*/
 
 
