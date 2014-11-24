@@ -34,7 +34,7 @@
 			<header>
 				<h1>
 				  <a href="index.php">
-					 <span><?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?> </span><!-- for SEO -->
+					 <?php echo get_option('home'); ?><span><?php bloginfo('name'); ?> </span><!-- for SEO -->
 					<img src="<?php bloginfo('template_url'); ?>/images/myimg.jpg" id="logo"  
 					  alt="My Logo"> <!-- for screen readers --> 	
 				  </a>
