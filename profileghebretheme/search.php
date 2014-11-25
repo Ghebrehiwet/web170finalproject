@@ -20,11 +20,7 @@
 							<li id="post-<?php the_ID(); ?>"><?php the_time('F jS, Y') ?> - <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></li>
 							<?php endwhile; ?>
 						</ul>
-						<div id="sidebar-right">
-						<div id="widgets">
-							<?php get_sidebar('primary'); ?>
-						</div>
-					</div>	
+						
 					<?php else : ?>
 
 						<h2>No posts found. Try a different search?</h2>
@@ -32,9 +28,13 @@
 				
 				
 			<?php endif; ?>
+					<div id="sidebar-right">
+						<div id="widgets">
+							<?php get_sidebar('primary'); ?>
+						</div>
+					</div>	
 				
-				
-			</div>
+				</div>
 					
 		<!-- END CONTENT -->
 
