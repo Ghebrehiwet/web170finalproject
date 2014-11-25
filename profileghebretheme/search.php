@@ -25,7 +25,7 @@
 						<h2>No posts found. Try a different search?</h2>
 						<p><?php get_search_form(); ?></p>
 				
-				</div>
+				
 			<?php endif; ?>
 				
 				<div id="sidebar-right">
@@ -33,7 +33,7 @@
 						<?php get_sidebar('primary'); ?>
 					</div>
 				</div>	
-
+			</div>
 					
 		<!-- END CONTENT -->
 
