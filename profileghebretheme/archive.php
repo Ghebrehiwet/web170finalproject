@@ -14,7 +14,7 @@
 	<div id="main"><!--open #main --> 
 
 		<?php if (have_posts()) : ?>
-		<div id="content" class="index">
+		<div id="content" class="archive">
 			  <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
 			  <?php /* If this is a category archive */ if (is_category()) { ?>
 				<h2 class="pagetitle">Archive for the &#8216;<?php single_cat_title(); ?>&#8217; Category</h2>
