@@ -673,11 +673,11 @@ h1, h2, h3, h4, h5, h6  {
 }
 
 #copyright  ul  {
-	text-align:center; 
+	text-align:right; 
 }
 
 #copyright  ul li {
-	display:block; 
+	display:inline-block; 
 }
      
 }
