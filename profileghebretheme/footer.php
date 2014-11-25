@@ -19,9 +19,9 @@
 				</div>
 				
 				<div id="copyright">
-					<?php get_sidebar('header'); ?>
+					
 					<ul> 
-						
+						<li><?php get_sidebar('header'); ?></li>
                         <li><a href="http://http://www.gebgebonline.com/myprofile/wp-login.php">login</a></li>
                         <li><a href="http://www.gebgebonline.com/myprofile/contact-me/">Contact</a></li>
 					</ul>
