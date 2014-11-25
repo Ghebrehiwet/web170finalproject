@@ -487,6 +487,10 @@ p.postmetadata {
 clear: both;
 background-color:#ccc;
 }
+
+body.search.search-no-results.logged-in.admin-bar.no-customize-support {
+	width: 100%;
+}
  
 
 
