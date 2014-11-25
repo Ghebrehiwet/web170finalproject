@@ -26,11 +26,11 @@
 						<h2>No posts found. Try a different search?</h2>
 						<p><?php get_search_form(); ?></p>
 				
-				</div>
+				
 			<?php endif; ?>
 					
 				
-				
+				</div>
 					
 		<!-- END CONTENT -->
 				<div id="sidebar-right">
