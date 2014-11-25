@@ -28,16 +28,16 @@
 				
 				
 			<?php endif; ?>
-					<div id="sidebar-right">
-						<div id="widgets">
-							<?php get_sidebar('primary'); ?>
-						</div>
-					</div>	
+					
 				
 				</div>
 					
 		<!-- END CONTENT -->
-
+				<div id="sidebar-right">
+						<div id="widgets">
+							<?php get_sidebar('primary'); ?>
+						</div>
+				</div>	
 			
 										
 	</div>
