@@ -4,9 +4,9 @@
 
 
 <div id="middle"><!--opening #middle -->
-				<aside id="sidebar-left"> 
-					<?php get_sidebar('secondary'); ?>
-				</aside>
+	<aside id="sidebar-left"> 
+		<?php get_sidebar('secondary'); ?>
+	</aside>
 <!-- END SIDEBAR -->
                 
 <!-- START CONTENT -->
@@ -24,14 +24,15 @@
 
 						<h2>No posts found. Try a different search?</h2>
 						<?php get_search_form(); ?>
-				</div>
+				
 			
-		<?php endif; ?>
-			<div id="sidebar-right">
-				<div id="widgets">
-					<?php get_sidebar('primary'); ?>
+			<?php endif; ?>
 				</div>
-			</div>	
+				<div id="sidebar-right">
+					<div id="widgets">
+						<?php get_sidebar('primary'); ?>
+					</div>
+				</div>	
 
 					
 		<!-- END CONTENT -->
