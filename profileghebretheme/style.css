@@ -943,6 +943,10 @@ max-width: 50%;
 margin: 0 auto;
 }
 
+ p.alignleft {
+margin-bottom: 25%;
+}
+
  
 	 
 }
