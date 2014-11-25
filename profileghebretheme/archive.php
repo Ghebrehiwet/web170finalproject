@@ -1,6 +1,17 @@
 <?php get_header(); ?>
 
-	<div id="middle"><!--opening #middle -->
+<!-- START SIDEBAR -->
+
+
+<div id="middle"><!--opening #middle -->
+				<aside id="sidebar-left">
+					 
+					<?php get_sidebar('secondary'); ?>
+				</aside>
+<!-- END SIDEBAR -->
+                
+<!-- START CONTENT -->
+	<div id="main"><!--open #main --> 
 
 		<?php if (have_posts()) : ?>
 
