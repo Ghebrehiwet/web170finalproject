@@ -13,8 +13,9 @@
 	<div id="main"><!--open #main --> 
 		<div id="content" class="404">
 			<div class="post-box">
-				<h2>Error 404</h2>
-				<p>Sorry, the page you are looking for doesn't exist.</p>
+				<!--<h2>Error 404</h2> -->
+				<<p>Sorry for not being able to get of what you have been looking for. Can you kindly search using our search engine below</p>
+				<p><?php get_search_form();?></p>
 			</div>
 		</div>
 		<div id="sidebar-right">
