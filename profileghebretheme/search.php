@@ -23,7 +23,7 @@
 					<?php else : ?>
 
 						<h2>No posts found. Try a different search?</h2>
-						<?php get_search_form(); ?>
+						<p><?php get_search_form(); ?></p>
 				
 			
 			<?php endif; ?>
