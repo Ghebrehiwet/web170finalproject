@@ -11,9 +11,11 @@
                 
 <!-- START CONTENT -->
 	<div id="main"><!--open #main --> 
-		<div id="content" class="404"> 
-			<h2>Error 404</h2>
-			<p>Sorry, the page you are looking for doesn't exist.</p>
+		<div id="content" class="404">
+			<div class="post-box">
+				<h2>Error 404</h2>
+				<p>Sorry, the page you are looking for doesn't exist.</p>
+			</div>
 		</div>
 		<div id="sidebar-right">
 			<div id="widgets">
