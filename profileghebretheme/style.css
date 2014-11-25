@@ -677,7 +677,8 @@ h1, h2, h3, h4, h5, h6  {
 
 #copyright  ul li {
 	display:block; 
-	text-align:center; 
+	text-align:center;
+	margin-right:2em;
 }
 
 #copyright  ul li a{
@@ -717,9 +718,10 @@ margin: 0 auto;
 		height: 150px;
 	}
 	
+	/*
 	.search ul li {
 	display: inline-block; 
-	margin-right: 2em; 
+	margin-right: 2em; */
 	
 }
 	/*
@@ -742,9 +744,9 @@ margin: 0 auto;
 	.search {
 		font-size: 0.65em; 
 		width: 55%; 
-		clear: both;
-	
+		clear: both; 
 		margin-top: -3.5em;
+		margin-right:2em;
 }
 	
 	 
