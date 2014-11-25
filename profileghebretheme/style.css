@@ -478,6 +478,10 @@ blockquote{
   p.alignleft {
 margin-bottom: 15%;
 }
+
+body.search.search-results.logged-in.admin-bar.no-customize-support {
+width: 100%;
+}
  
 
 

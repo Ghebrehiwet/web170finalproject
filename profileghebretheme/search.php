@@ -4,8 +4,7 @@
 
 
 <div id="middle"><!--opening #middle -->
-				<aside id="sidebar-left">
-					 
+				<aside id="sidebar-left"> 
 					<?php get_sidebar('secondary'); ?>
 				</aside>
 <!-- END SIDEBAR -->
