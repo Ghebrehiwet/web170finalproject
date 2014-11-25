@@ -25,13 +25,13 @@
 						<h2>No posts found. Try a different search?</h2>
 						<?php get_search_form(); ?>
 				</div>
+			
+		<?php endif; ?>
 			<div id="sidebar-right">
 				<div id="widgets">
 					<?php get_sidebar('primary'); ?>
 				</div>
-			</div>
-		<?php endif; ?>
-				
+			</div>	
 
 					
 		<!-- END CONTENT -->
