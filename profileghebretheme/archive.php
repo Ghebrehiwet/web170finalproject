@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<div id="content" class="archive" role="main">
+	<div id="middle"><!--opening #middle -->
 
 		<?php if (have_posts()) : ?>
 
@@ -59,8 +59,15 @@
 	endif;
 ?>
 
-	</div>
+			<div id="sidebar-right">
+				<div id="widgets">
+						<?php get_sidebar('primary'); ?>
+				</div>
+			</div>
+<!-- END CONTENT -->
 
-<?php get_sidebar(); ?>
+	
+								
+	 </div>
 
 <?php get_footer(); ?>
