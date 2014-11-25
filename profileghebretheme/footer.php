@@ -20,7 +20,7 @@
 				
 				<div id="copyright">
 					<ul> 
-						<!-- <li><a href="javascript:;">Web Design and Content &copy; Ghebre Ghebremedhin: <?php print (date ('Y')); ?></a></li> -->
+						<?php get_sidebar('header'); ?>
                         <li><a href="http://http://www.gebgebonline.com/myprofile/wp-login.php">login</a></li>
                         <li><a href="http://www.gebgebonline.com/myprofile/contact-me/">Contact</a></li>
 					</ul>
