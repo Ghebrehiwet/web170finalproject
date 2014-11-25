@@ -25,9 +25,9 @@
 						<h2>No posts found. Try a different search?</h2>
 						<p><?php get_search_form(); ?></p>
 				
-			
-			<?php endif; ?>
 				</div>
+			<?php endif; ?>
+				
 				<div id="sidebar-right">
 					<div id="widgets">
 						<?php get_sidebar('primary'); ?>
