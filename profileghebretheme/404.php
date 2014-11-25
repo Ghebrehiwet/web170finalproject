@@ -16,7 +16,7 @@
 
 			<h2>Error 404</h2>
 			<p>Sorry, the page you are looking for doesn't exist.</p>
-   
+		</div>
 				<div id="sidebar-right">
 						<div id="widgets">
 								<?php get_sidebar('primary'); ?>
@@ -24,8 +24,8 @@
 				</div>
 <!-- END CONTENT -->
 
-	
+	</div>
 								
-	 </div>
+	
 
 <?php get_footer(); ?>
