@@ -363,8 +363,7 @@ footer ul li {
 }
 
 #copyright  ul  li {
-	display: inline-block; 
-	padding: 10px; 
+	display: inline-block;  
 }
 
 #copyright  ul  li a { 
@@ -678,6 +677,7 @@ h1, h2, h3, h4, h5, h6  {
 
 #copyright  ul li {
 	display:block; 
+	text-align:center; 
 }
 
 #copyright  ul li a{
@@ -945,6 +945,7 @@ h1, h2, h3, h4, h5, h6  {
 
 #copyright  ul li {
 	display:block; 
+	text-align:center; 
 }
 
 .textwidget {
