@@ -12,7 +12,7 @@
                 
 <!-- START CONTENT -->
 	<div id="main"><!--open #main --> 
-		<div id="content" class="index">
+		<div id="content" class="404">
 
 			<h2>Error 404</h2>
 			<p>Sorry, the page you are looking for doesn't exist.</p>
@@ -26,6 +26,6 @@
 
 	</div>
 								
-	
+</div>
 
 <?php get_footer(); ?>
