@@ -9,20 +9,20 @@
 						 <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" target="_blank">
 						  <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS3" height="31" width="88">
 						</a>
-                        <ul>
+                        <!--<ul>
                             <li><img src="<?php bloginfo('template_url'); ?>/images/tech.png"</li>
                             <li><img src="<?php bloginfo('template_url'); ?>/images/myimg.jpg"</li>
                             <li><img src="<?php bloginfo('template_url'); ?>/images/tech.png"</li> 
                             <li><img src="<?php bloginfo('template_url'); ?>/images/myimg.jpg"</li>
-						</ul>
+						</ul> -->
 					</p>
 				</div>
 				
 				<div id="copyright">
 					<ul> 
-						<li><a href="javascript:;">Web Design and Content &copy; Ghebre Ghebremedhin: <?php print (date ('Y')); ?></a></li> 
-                        <li><a href="javascript:;">login</a></li>
-                        <li><a href="javascript:;">Contact</a></li>
+						<!-- <li><a href="javascript:;">Web Design and Content &copy; Ghebre Ghebremedhin: <?php print (date ('Y')); ?></a></li> -->
+                        <li><a href="http://http://www.gebgebonline.com/myprofile/wp-login.php">login</a></li>
+                        <li><a href="http://www.gebgebonline.com/myprofile/contact-me/">Contact</a></li>
 					</ul>
 				
 				</div>
