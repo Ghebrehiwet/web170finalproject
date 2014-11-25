@@ -81,7 +81,7 @@ h1 span  {
 	width: 40%;
 	margin-top:2.5%;
 }
-
+/*
 .search ul { 
 	list-style: none;
 	float: left;
@@ -94,9 +94,9 @@ h1 span  {
 	margin-right: 1em; 
 	clear:both;
 }
-
+*/
 .search form {
-	float: left;	
+	float: right;	
 }
 
 
