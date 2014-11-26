@@ -34,8 +34,9 @@
                         </nav>
                 
                 </div>
-                <?php endif; ?>
 				<?php comments_template(); ?>
+                <?php endif; ?>
+				
 		<div id="sidebar-right">
 		<div id="widgets">
 				<?php get_sidebar('primary'); ?>
