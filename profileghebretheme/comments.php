@@ -38,7 +38,7 @@
 		<!-- If comments are open, but there are no comments. -->
 	 <?php else : // comments are closed ?>
 		<!-- If comments are closed. -->
-		<p class="nocomments">Comments are closed.</p>
+		 
 	<?php endif; ?>
 <?php endif; ?>
 <?php if ('open' == $post->comment_status) : ?>
