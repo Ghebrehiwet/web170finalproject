@@ -1,16 +1,11 @@
-<?php get_header(); ?>
-
-<!-- START SIDEBAR -->
-
+<?php get_header(); ?> 
 
 <div id="middle"><!--opening #middle -->
 				<aside id="sidebar-left">
 					 
 					<?php get_sidebar('secondary'); ?>
 				</aside>
-<!-- END SIDEBAR -->
-                
-<!-- START CONTENT -->
+ 
 	<div id="main"><!--open #main --> 
 				<?php if (have_posts()) : ?>
                 <div id="content" class="index">
@@ -38,11 +33,11 @@
                 <?php endif; ?>
 			<?php comments_template(); ?>	
 		<div id="sidebar-right">
-		<div id="widgets">
-				<?php get_sidebar('primary'); ?>
+				<div id="widgets">
+						<?php get_sidebar('primary'); ?>
+				</div>
 		</div>
- 	</div>
-<!-- END CONTENT -->
+ 
 
 	
 								

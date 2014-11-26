@@ -7,13 +7,7 @@
 						 </a>
 						 <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" target="_blank">
 						  <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS3" height="31" width="88">
-						</a>
-                        <!--<ul>
-                            <li><img src="<?php bloginfo('template_url'); ?>/images/tech.png"</li>
-                            <li><img src="<?php bloginfo('template_url'); ?>/images/myimg.jpg"</li>
-                            <li><img src="<?php bloginfo('template_url'); ?>/images/tech.png"</li> 
-                            <li><img src="<?php bloginfo('template_url'); ?>/images/myimg.jpg"</li>
-						</ul> -->
+						</a> 
 					</p>
 				</div>
 				
