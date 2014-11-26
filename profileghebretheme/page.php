@@ -1,16 +1,11 @@
-<?php get_header(); ?>
-
-<!-- START SIDEBAR -->
-
+<?php get_header(); ?> 
 
 <div id="middle"><!--opening #middle -->
 				<aside id="sidebar-left">
 					 
 					<?php get_sidebar('secondary'); ?>
 				</aside>
-<!-- END SIDEBAR -->
-                
-<!-- START CONTENT -->
+ 
 	<div id="main"><!--open #main --> 
 				<?php if (have_posts()) : ?>
                 <div id="content" class="page">
@@ -25,20 +20,17 @@
                 
                          
                 
-                </div>
+                </div><!-- END CONTENT -->
 				
                 <?php endif; ?>
 				<div id="sidebar-right">
-		<div id="widgets">
-				<?php get_sidebar('primary'); ?>
-		</div>
-			<?php comments_template(); ?>	
-		
- 	</div>
-<!-- END CONTENT -->
-
-	
-								
-	 </div>
+					<div id="widgets">
+							<?php get_sidebar('primary'); ?>
+					</div>
+				</div>
+			<?php comments_template(); ?> 
+ 	
+		</div>						
+</div>
 
 <?php get_footer(); ?>
