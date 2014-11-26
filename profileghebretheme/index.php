@@ -34,10 +34,10 @@
                         </nav>
                 
                 </div>
-				<?php comments_template(); ?>
+				
                 <?php endif; ?>
 				
-		<div id="sidebar-right">
+		<?php comments_template(); ?>
 		<div id="widgets">
 				<?php get_sidebar('primary'); ?>
 		</div>
