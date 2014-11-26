@@ -49,13 +49,14 @@
 
 				endif;
 			?>
+			<div id="sidebar-right">
+				<div id="widgets">
+						<?php get_sidebar('primary'); ?>
+				</div>
+			</div>
 		</div><!-- #content -->
 	 </div>
 
-		<div id="sidebar-right">
-			<div id="widgets">
-					<?php get_sidebar('primary'); ?>
-			</div>
-		</div>
+		
 <!-- END CONTENT --> 
 <?php get_footer(); ?>
