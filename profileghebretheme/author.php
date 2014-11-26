@@ -32,7 +32,7 @@
 			?>
 
 			<?php 
-				if(empty($curauth->user_description))	echo $curauth->first_name. ' has not yet written a bio.';
+				if(empty($curauth->user_description))	echo $curauth->first_name. ' Here are what you have authored.';
 				else echo $curauth->user_description; 
 				?></p>
 				<?php
@@ -61,9 +61,9 @@
 						<?php the_title(); ?></a>,
 						<?php the_time('d M Y'); ?> in <?php the_category(', ');?>
 					</li>
-				</ul>
+				
 					<?php endwhile; ?>
-					
+				</ul>	
 					<div class="post-nav">
 						<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
 						<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
