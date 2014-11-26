@@ -19,7 +19,7 @@
 				</div>
 				
 				<div id="copyright">
-					
+					<?php date('Y'); ?>
 					<ul>  
                         <li><a href="http://http://www.gebgebonline.com/myprofile/wp-login.php">login</a></li>
                         <li><a href="http://www.gebgebonline.com/myprofile/contact-me/">Contact</a></li>
