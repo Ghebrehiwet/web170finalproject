@@ -1,5 +1,4 @@
-</div><!--close #middle -->
-		</div><!--close #wrapper -->
+	</div><!--close #wrapper -->
 			<footer>
 				<div id="validation">
 					<p>
