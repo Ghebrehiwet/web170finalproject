@@ -74,7 +74,7 @@
 
 				<?php endif; ?>
 
-				<?php if($hasposts) echo '<ul>'; ?>
+				<?php if($hasposts) echo ''; ?>
 
 			<!-- End Loop -->
 					
