@@ -36,8 +36,8 @@
                 </div>
 				
                 <?php endif; ?>
-				
-		<?php comments_template(); ?>
+			<?php comments_template(); ?>	
+		<div id="sidebar-right">
 		<div id="widgets">
 				<?php get_sidebar('primary'); ?>
 		</div>
