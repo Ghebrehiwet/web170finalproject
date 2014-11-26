@@ -49,12 +49,13 @@
 
 				endif;
 			?>
-			<div id="sidebar-right">
+			
+		</div><!-- #content -->
+		<div id="sidebar-right">
 				<div id="widgets">
 						<?php get_sidebar('primary'); ?>
 				</div>
 			</div>
-		</div><!-- #content -->
 	 </div>
 
 		
