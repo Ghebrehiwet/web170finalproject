@@ -77,7 +77,7 @@
 			</div>
 <!-- END CONTENT -->
 
-	
+		</div>
 								
 	 </div>
 
