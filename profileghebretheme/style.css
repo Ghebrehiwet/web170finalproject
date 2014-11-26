@@ -503,6 +503,10 @@ input#searchsubmit{
 input#s {
 	width: 30%;
 }
+
+form#searchform {
+float: left;
+}
  
 
 
