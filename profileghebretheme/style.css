@@ -509,6 +509,14 @@ input#searchsubmit{
 form#searchform {
 float: left;
 }
+
+div#content.author ul li {
+	margin-left: 2.5%;
+}
+
+div#content.author div.post-nav {
+	margin-top: 5%;
+}
  
 
 
