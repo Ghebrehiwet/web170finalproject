@@ -11,9 +11,9 @@
                 
 <!-- START CONTENT -->
 	<div id="main"><!--open #main --> 
-
+		<div id="content" class="search">
 			<?php if (have_posts()) : ?>
-				 <div id="content" class="search">
+				 
 						<h2 class="pagetitle">Search Results</h2>
 						<ul>
 							<?php while (have_posts()) : the_post(); ?>
