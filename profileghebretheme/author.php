@@ -1,8 +1,19 @@
 <?php get_header(); ?>
 
-<?php get_sidebar(); ?>
-<div id="content" class="author">
-<div class="post">
+<!-- START SIDEBAR -->
+
+
+<div id="middle"><!--opening #middle -->
+				<aside id="sidebar-left">
+					 
+					<?php get_sidebar('secondary'); ?>
+				</aside>
+<!-- END SIDEBAR -->
+                
+<!-- START CONTENT -->
+	<div id="main"><!--open #main --> 
+
+	<div id="content" class="author">
 <!-- This sets the $curauth variable -->
     <?php
     if(isset($_GET['author_name'])) :
@@ -66,6 +77,15 @@
     <?php if($hasposts) echo '</ul>'; ?>
 
 <!-- End Loop -->
-</div>
-</div>
+		<div id="sidebar-right">
+			<div id="widgets">
+					<?php get_sidebar('primary'); ?>
+			</div>
+		</div>
+<!-- END CONTENT -->
+
+	</div>
+								
+	 </div>
+
 <?php get_footer(); ?>
