@@ -95,6 +95,8 @@ h1 span  {
 	clear:both;
 }
 */
+
+
 .search form {
 	float: right;	
 }
@@ -500,9 +502,9 @@ input#searchsubmit{
 	background-color: #f5deb3;
 }
 
-input#s {
+/*input#s {
 	width: 30%;
-}
+}*/
 
 form#searchform {
 float: left;
