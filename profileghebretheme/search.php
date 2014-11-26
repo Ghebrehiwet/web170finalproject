@@ -23,7 +23,7 @@
 						
 					<?php else : ?>
 
-						<h2>No posts found. Try a different search?</h2>
+						<h2>No Searches found! Please use the search form below to search other contents.</h2>
 						<p><?php get_search_form(); ?></p>
 				
 				
