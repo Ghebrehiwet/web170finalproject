@@ -510,7 +510,7 @@ form#searchform {
 float: left;
 }
 
-div#content.author ul li {
+div#content.author ul li , div#content.search ul li {
 	margin-left: 2.5%;
 }
 
