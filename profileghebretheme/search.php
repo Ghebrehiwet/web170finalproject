@@ -1,15 +1,11 @@
 <?php get_header(); ?>
 
-<!-- START SIDEBAR -->
-
-
+ 
 <div id="middle"><!--opening #middle -->
 	<aside id="sidebar-left"> 
 		<?php get_sidebar('secondary'); ?>
 	</aside>
-<!-- END SIDEBAR -->
-                
-<!-- START CONTENT -->
+ 
 	<div id="main"><!--open #main --> 
 		
 			<?php if (have_posts()) : ?>
@@ -32,7 +28,7 @@
 				
 				</div>
 					
-		<!-- END CONTENT -->
+		 
 				<div id="sidebar-right">
 						<div id="widgets">
 							<?php get_sidebar('primary'); ?>
