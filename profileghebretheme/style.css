@@ -292,6 +292,11 @@ div.post-box ul li {
 	
 }
 
+a.post-edit-link {
+	float: left;
+	clear: both;
+}
+
 #direction { 
 	text-align: center;
 }
