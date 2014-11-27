@@ -40,7 +40,7 @@
 				  </a>
 				</h1> 
                <div class="search">
-					<?php get_sidebar('header'); ?> 
+					<?php add_theme_support( 'html5', array( 'search-form' ) ); ?> 
                      
                  </div>
                  
