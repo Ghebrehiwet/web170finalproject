@@ -1,5 +1,4 @@
-	</div><!--close #wrapper -->
-			<footer>
+				<footer>
 				<div id="validation">
 					<p>
 						<a href="http://validator.w3.org/check?uri=referer" target="_blank">
@@ -25,6 +24,6 @@
 				</div>
 			
 		</footer> 
-		 
+		</div><!--close #wrapper --> 
 	</body>
 </html>
