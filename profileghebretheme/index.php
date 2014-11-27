@@ -27,9 +27,10 @@
                             <p class="alignleft"><?php next_posts_link('&laquo; Older Posts') ?></p>
                             <p class="alignright"><?php previous_posts_link('Newer Posts &raquo;') ?></p>
                         </nav>
+						<?php comments_template(); ?>
                 
                 </div>
-				<?php comments_template(); ?>
+				
                 <?php endif; ?>
 				
 		<div id="sidebar-right">
