@@ -40,7 +40,7 @@
 				  </a>
 				</h1> 
                <div class="search">
-					<?php add_theme_support( 'html5', array( 'search-form' ) ); ?> 
+					<?php get_search_form(); ?> 
                      
                  </div>
                  
