@@ -35,7 +35,7 @@ html {
 	max-width:1200px;
 	margin:0 auto;
 	margin-top: 0;	
-	/*background-color: #003300;*/
+	background-color: #000;
 }
 
 #wrapper {
@@ -208,6 +208,7 @@ margin-bottom:10%;
 	float: left;
 	width: 100%;
 	overflow: hidden;
+	background-color: white;
 }
 
 
@@ -234,8 +235,7 @@ margin-bottom:10%;
 	float: right;
 	width: 80%;
 	max-width:100%;
-	padding: 1%;
-	margin-top:40px;
+	padding: 1%; 
 }
 
 #content { 
