@@ -56,7 +56,7 @@ header {
 	/*background-image: url(img/navback.png);
 	background-repeat: repeat-y;*/
     width: 100%;
-    height: 170px;
+    height: auto;
 	margin: 0;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
@@ -594,7 +594,7 @@ footer  {
 	  
  header {
 		/*padding: 20px 5px 20px 5px;*/
-		height: 200px;  
+		height: auto;  
 	  }
 	  
 .search ul {  
@@ -757,7 +757,7 @@ h1, h2, h3, h4, h5, h6  {
 	header { 
 		padding: 10px;
 		padding-bottom: 30px;
-		height: 150px;
+		height: auto;
 	}
 	
 	.search ul li {
@@ -877,11 +877,6 @@ header  nav:active, nav:hover {
   nav ul { 
 	background-color: rgba(245, 222, 179, 0.8);
 }
-  
- 
-  
-  
-  
   
   
 	
