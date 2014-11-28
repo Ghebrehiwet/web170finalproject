@@ -201,6 +201,13 @@ margin-bottom:10%;
 
 
 
+ 
+.responsive {
+    display: none;
+}
+
+
+
 
 #middle { 
 	clear:both;  
@@ -884,6 +891,32 @@ nav ul .center{
 		left: 50%;
 		margin-left: -20px;
 	}*/
+	
+	/* another way of making the nav responsive
+	 .responsive {
+    display: block;
+  }
+  nav ul li {
+    float: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+  }
+ nav {
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  nav:active, nav:hover {
+    height: auto;
+  }
+  
+  */
+  
+  
+  
+  
+  
 	
 	#sidebar-left {
 		display: none;	
