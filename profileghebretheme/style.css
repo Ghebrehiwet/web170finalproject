@@ -60,6 +60,7 @@ header {
 	margin: 0;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	overflow: inherit;
 	
 }
 
