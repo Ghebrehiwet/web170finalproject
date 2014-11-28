@@ -953,9 +953,11 @@ header  nav:active, nav:hover {
 	list-style: none;
 }
 
- div.menu-main-header-menu-container ul#menu-main-header-menu-1.menu li a {
+ div.menu-main-header-menu-container ul#menu-main-header-menu-1.menu li a: first child {
 	display: none;
  }
+ 
+ 
 
 p {
 	padding: 0.8%;
