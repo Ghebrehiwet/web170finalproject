@@ -868,12 +868,12 @@ header nav ul li {
 header nav {
     height: 50px;
     overflow: hidden;
-	z-index: 10000;
+	z-index: 10000; 
+	background-color: rgba(245, 222, 179, 0.8);
   }
   
 header  nav:active, nav:hover {
     height: auto;
-	background-color: rgba(245, 222, 179, 0.8);
   }
   
  
