@@ -367,7 +367,7 @@ footer ul li {
 }
 
 #copyright {
-	float: left;
+	float: right;
 	width: 48%;
 }
 
@@ -488,16 +488,16 @@ blockquote{
 margin-bottom: 15%;
 }
 
-body.search.search-results.logged-in.admin-bar.no-customize-support {
+/*body.search.search-results.logged-in.admin-bar.no-customize-support {
 width: 100%;
-}
+}*/
 
 p.postmetadata {
 clear: both;
 background-color:#ccc;
 }
 
-body.search.search-no-results.logged-in.admin-bar.no-customize-support {
+/*body.search.search-no-results.logged-in.admin-bar.no-customize-support {
 	width: 100%;
 }
 
@@ -507,7 +507,7 @@ body.search.search-results, body.search.search-no-results {
 
 input#searchsubmit{
 	background-color: #f5deb3;
-}
+}*/
 
 /*input#s {
 	width: 30%;
