@@ -953,6 +953,10 @@ header  nav:active, nav:hover {
 	list-style: none;
 }
 
+ div.menu-main-header-menu-container ul#menu-main-header-menu-1.menu li a {
+	display: none;
+ }
+
 p {
 	padding: 0.8%;
 	margin-bottom: 1.3em; 
