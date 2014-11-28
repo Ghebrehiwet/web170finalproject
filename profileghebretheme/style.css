@@ -46,9 +46,13 @@ html {
     line-height: 1.4em;
     font-family:Georgia;
 	margin-top: 0;
+}
+
+#wrapper:after { 
 	background-image: url(images/navback.png); 
 	background-repeat: repeat-y;
 	background-size:18%; 
+	opacity:0.5; 
 }
 
 header { 
