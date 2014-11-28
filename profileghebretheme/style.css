@@ -863,6 +863,7 @@ header nav ul li {
     text-transform: uppercase;
     display: block;
     text-align: center;
+	z-index: 10000;
   }
 header nav {
     height: 50px;
