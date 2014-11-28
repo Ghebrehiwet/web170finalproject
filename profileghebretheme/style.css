@@ -953,7 +953,7 @@ header  nav:active, nav:hover {
 	list-style: none;
 }
 
- div.menu-main-header-menu-container ul#menu-main-header-menu-1.menu li : first child {
+ aside#primary div#nav_menu-4 {
 	display: none;
  }
  
