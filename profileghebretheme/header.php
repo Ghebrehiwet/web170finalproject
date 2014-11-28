@@ -41,7 +41,7 @@
 				</h1> 
                <div class="search">
 					<?php get_search_form(); ?> 
-					<p>Today is: <?php echo date('M D, Y'); ?>
+					<p>Today is: <?php echo date('M d, Y'); ?>
                      
                  </div>
                  
