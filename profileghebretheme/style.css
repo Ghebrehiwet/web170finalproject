@@ -126,7 +126,6 @@ nav {
 nav ul {
 	 height: auto;
     padding: 4px 0px; 
-	background-color: rgba(245, 222, 179, 0.6);
 }
 
 nav ul  li {
@@ -874,6 +873,10 @@ header nav {
 header  nav:active, nav:hover {
     height: auto;
   }
+  
+  nav ul { 
+	background-color: rgba(245, 222, 179, 0.6);
+}
   
  
   
