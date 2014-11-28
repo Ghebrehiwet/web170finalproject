@@ -863,11 +863,12 @@ header nav ul li {
     text-transform: uppercase;
     display: block;
     text-align: center;
-	z-index: 10000;
+	
   }
 header nav {
     height: 50px;
     overflow: hidden;
+	z-index: 10000;
   }
   
 header  nav:active, nav:hover {
