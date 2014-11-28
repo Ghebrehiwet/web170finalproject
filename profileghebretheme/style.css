@@ -523,6 +523,10 @@ div#content.author ul li , div#content.search ul li {
 div#content.author div.post-nav {
 	margin-top: 5%;
 }
+
+div#wpcf7-f55-p12-o1 form.wpcf7-form {
+	background-color: khaki;
+}
  
 
 
