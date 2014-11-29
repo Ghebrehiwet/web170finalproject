@@ -77,6 +77,8 @@ function my_register_sidebars() {
 	/* Repeat register_sidebar() code for additional sidebars. */
 }
 
+/*enabling featured thumbnail */
+add_theme_support( 'post-thumbnails' );
 
 // Remove rel attribute from the category list
 function remove_category_list_rel($output)
