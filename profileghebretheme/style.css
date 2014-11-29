@@ -20,6 +20,13 @@ img {
 	margin-right: 0.5%;
 }
 
+img.attachment-post-thumbnail.wp-post-image {
+    float: left;
+    width: 20%;
+    height: 20%;
+    /* overflow: hidden; */
+}
+
 body {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1em;
