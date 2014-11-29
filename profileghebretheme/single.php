@@ -1,0 +1,47 @@
+<?php get_header(); ?> 
+
+<div id="middle"><!--opening #middle -->
+				<aside id="sidebar-left"> 
+					<?php get_sidebar('secondary'); ?>
+				</aside>
+ 
+	<div id="main"><!--open #main --> 
+				<?php if (have_posts()) : ?>
+                <div id="content" class="index">
+                    <?php while (have_posts()) : the_post(); ?>
+                        <div class="post-box">
+                         
+                        <p class="postmetadata">
+                            <span class="date">Posted on <?php the_time('F jS, Y') ?></span> in 
+                            <span class="cat"><?php the_category(', ') ?></span>
+                            <span class="author"><?php _e('By');?> <?php the_author_posts_link(); ?></span>
+                            <span class="comments">with <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></span>
+                        </p>
+                        <?php the_content('More &raquo;'); ?>
+                        <?php edit_post_link('Edit this entry.', '<p><small>', '</small></p>'); ?>
+                        </div>
+                    <?php endwhile; ?>
+                
+                        <nav class="post-nav">
+                            <p class="alignleft"><?php next_posts_link('&laquo; Older Posts') ?></p>
+                            <p class="alignright"><?php previous_posts_link('Newer Posts &raquo;') ?></p>
+                        </nav>
+						<?php comments_template(); ?>
+                
+                </div>
+				
+                <?php endif; ?>
+				
+		<div id="sidebar-right">
+				<div id="widgets">
+						<?php get_sidebar('primary'); ?>
+				</div>
+		</div>
+ 
+
+		</div>
+								
+	 </div>
+
+<?php get_footer(); ?>
+<?php wp_link_pages(); ?>
