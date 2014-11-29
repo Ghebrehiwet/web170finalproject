@@ -34,3 +34,4 @@
 </div>
 
 <?php get_footer(); ?>
+<?php wp_link_pages(); ?>
