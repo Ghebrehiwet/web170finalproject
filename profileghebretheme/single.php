@@ -18,6 +18,11 @@
                             <span class="author"><?php _e('By');?> <?php the_author_posts_link(); ?></span>
                             <span class="comments">with <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></span>
                         </p>
+						<?php 
+							if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+								the_post_thumbnail();
+							} 
+						?>
                         <?php the_content('More &raquo;'); ?>
                         <?php edit_post_link('Edit this entry.', '<p><small>', '</small></p>'); ?>
                         </div>
