@@ -20,7 +20,7 @@
                         <h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
                          
                         <?php the_content('More &raquo;'); ?>
-                        <?php edit_post_link('Edit this entry.', '<p><small>', '</small></p>'); ?>
+                        <?php edit_post_link('Edit.', '<p><small>', '</small></p>'); ?>
                         </div>
                     <?php endwhile; ?>
                 
