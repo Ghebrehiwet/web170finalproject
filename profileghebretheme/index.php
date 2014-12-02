@@ -25,7 +25,7 @@
 						?>
  
                         <?php the_content('More &raquo;'); ?>
-                        <?php edit_post_link('Edit this entry.', '<p><small>', '</small></p>'); ?>
+                        <?php edit_post_link('Edit.', '<p><small>', '</small></p>'); ?>
                         </div>
                     <?php endwhile; ?>
                 
