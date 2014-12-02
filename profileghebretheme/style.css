@@ -23,8 +23,7 @@ img {
 img.attachment-post-thumbnail.wp-post-image {
     float: left;
     width: 20%;
-    height: 20%;
-    /* overflow: hidden; */
+    height: 20%; 
 }
 
 body {
@@ -52,8 +51,7 @@ html {
 	font-size: 100%;
     line-height: 1.4em;
     font-family:Georgia;
-	margin-top: 0;
-	/*background-image: url(images/navback.png); */
+	margin-top: 0; 
 	background-repeat: repeat-y;
 	background-size:18%; 
 }
@@ -63,9 +61,7 @@ html {
 }
 
 header { 
-    background: #7CBB00;
-	/*background-image: url(img/navback.png);
-	background-repeat: repeat-y;*/
+    background: #7CBB00; 
     width: 100%; 
 	margin: 0;
 	border-top-left-radius: 15px;
@@ -91,47 +87,15 @@ h1 span  {
 	float: right;
 	width: 40%;
 	margin-top:2.5%;
-}
-/*
-.search ul { 
-	list-style: none;
-	float: left;
-	margin-top: 3px;
-	margin-left:5%;
-}
+} 
 
-.search ul li {
-	display: inline-block;
-	margin-right: 1em; 
-	clear:both;
-}
-
-
-
-.search form {
-	float: right;	
-}*/
-
-
-nav { 
-	/*clear: both;
-	width: 100%; 
-	text-align: center;*/
+nav {  
 	width:100%; 
 	margin:auto;
-	clear: both;
-	/*text-align: center;
-	position: relative;
-	top: 40px;*/
+	clear: both; 
 	background-color: wheat;
-}
+} 
 
-
-
-
-
-
- 
 nav ul {
 	 height: auto;
     padding: 4px 0px; 
@@ -162,6 +126,11 @@ nav ul li > a  {
 	margin-bottom: 0.2em;
 }
 
+nav ul li a {
+	border-bottom: 3px double wheat;
+
+}
+
 nav ul li a:active  {
     background-color:#588624;  
 }
@@ -181,13 +150,11 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover, 
-nav ul li a:focus {
-	/*color: #900; */   
+nav ul li a:focus { 
    border-bottom: 3px double #f00;
  }
 
-nav ul li a:hover {
-	/*color: #900; */ 
+nav ul li a:hover { 
 	border-bottom: 3px double #f00; 
 	background-color:#EEF2DC; 
 	color:#000; 
