@@ -1148,8 +1148,7 @@ div.hentry {
 /* POST ITEMS */
 .post-box {
 	border-bottom:1px solid #DDDDDD;
-	margin-bottom:30px;
-	padding-bottom:10px;
+	margin-bottom:10px; 
 }
 
 .postmetadata {
