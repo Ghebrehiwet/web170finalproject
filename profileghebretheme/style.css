@@ -90,10 +90,11 @@ h1 span  {
 } 
 
 nav {  
-	width:100%; 
+	width:96%; 
 	margin:auto;
 	clear: both; 
 	background-color: wheat;
+	padding: 0 2%;
 } 
 
 nav ul {
@@ -178,9 +179,9 @@ margin-bottom:10%;
 
 #middle { 
 	float: left;
-	width: 100%;
-	overflow: hidden;
+	width: 96%; 
 	background-color: white;
+	padding:0 2%;
 }
 
 
