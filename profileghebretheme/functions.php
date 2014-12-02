@@ -14,8 +14,7 @@ add_filter( 'widget_text', 'do_shortcode');
 function register_my_menus() {
   register_nav_menus(
     array( 
-		  'main-menu' => __( 'Main Menu' ), 
-		  'utility-menu' => __( 'Utility Menu' )
+		  'main-menu' => __( 'Main Menu' ) 
 		  )
   );
   
@@ -27,8 +26,7 @@ function register_my_menus() {
 if ( function_exists( 'register_nav_menus' ) ) {
 	register_nav_menus(
 		array(
-		  'main-menu' => 'Main Menu',
-		  'utility_menu' => 'Utility Menu'
+		  'main-menu' => 'Main Menu' 
 			 )
 	);
 }    
@@ -61,17 +59,7 @@ function my_register_sidebars() {
 		)
 	);
 	
-	/* Register the footer widget area. */
-	register_sidebar(
-		array(
-			'id' => 'header',
-			'name' => __( 'Header Widget Area' ),
-			'before_widget' => '<div id="%1$s" class="widget %2$s">',
-			'after_widget' => '</div>',
-			'before_title' => '<h3 class="widget-title">',
-			'after_title' => '</h3>'
-		)
-	);
+	 
 	
 	
 	/* Repeat register_sidebar() code for additional sidebars. */
