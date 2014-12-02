@@ -247,7 +247,8 @@ margin-bottom:10%;
 
 #content { 
 	float: left;
-	width: 72%; 
+	width: 72%;
+	margin-top: 10px;
 
 }
 
