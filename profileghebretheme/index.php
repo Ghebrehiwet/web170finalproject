@@ -23,7 +23,7 @@
 								the_post_thumbnail();
 							} 
 						?>
-<?php the_content(); ?>
+ 
                         <?php the_content('More &raquo;'); ?>
                         <?php edit_post_link('Edit this entry.', '<p><small>', '</small></p>'); ?>
                         </div>
