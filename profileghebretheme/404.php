@@ -10,7 +10,13 @@
 <!-- END SIDEBAR -->
                 
 <!-- START CONTENT -->
-	<div id="main"><!--open #main --> 
+	<div id="main"><!--open #main -->
+		<div class="breadcrumbs">
+					<?php if(function_exists('bcn_display'))
+					{
+						bcn_display();
+					}?>
+		</div>
 		<div id="content" class="404">
 			<div class="post-box">
 				<!--<h2>Error 404</h2> -->

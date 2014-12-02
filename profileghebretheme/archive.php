@@ -12,7 +12,12 @@
                 
 <!-- START CONTENT -->
 	<div id="main"><!--open #main --> 
-
+		<div class="breadcrumbs">
+					<?php if(function_exists('bcn_display'))
+					{
+						bcn_display();
+					}?>
+		</div>
 		<?php if (have_posts()) : ?>
 		<div id="content" class="archive">
 			  <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
