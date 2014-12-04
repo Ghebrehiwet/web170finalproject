@@ -11,7 +11,7 @@
 					{
 						bcn_display();
 					}?>
-				</div>
+			</div>
 				
 		<div id="content" class="attachment"> 
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -27,15 +27,13 @@
 						</div>
 						<?php link_pages('<p><strong>Pages:</strong> ', '</p>', 'number'); ?>
 						<p class="postmetadata alt clear"><small><?php edit_post_link('Edit this entry.','',''); ?></small></p>
-				</div>
-				 
-		</div>
+				</div> 
         
-	<?php comments_template(); ?>
-	<?php endwhile; else: ?>
-		<p>Sorry, no attachments matched your criteria.</p>
-	<?php endif; ?>
-	
+			<?php comments_template(); ?>
+			<?php endwhile; else: ?>
+				<p>Sorry, no attachments matched your criteria.</p>
+			<?php endif; ?>
+	</div>
 	<div id="sidebar-right">
 		<div id="widgets">
 			<?php get_sidebar('primary'); ?>
