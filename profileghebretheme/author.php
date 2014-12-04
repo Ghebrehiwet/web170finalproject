@@ -53,7 +53,7 @@
 				}
 				?>
 				
-				<h2 class="posttitle">Posts by <?php echo $curauth->first_name; ?></h2>
+				 
 
 				<ul>
 			<!-- The Loop -->
