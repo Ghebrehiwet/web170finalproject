@@ -41,7 +41,7 @@
 				</h1> 
                <div class="search">
 					<?php get_search_form(); ?> 
-					<p>Today is: <?php echo date("F j, Y g:i a", current_time('timestamp')); ?></p>
+					<p>Today is: <?php echo date("F j, Y", current_time('timestamp')); ?></p>
                      
                  </div>
                  
