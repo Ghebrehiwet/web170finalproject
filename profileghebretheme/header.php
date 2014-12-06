@@ -41,7 +41,7 @@
 				</h1> 
                <div class="search">
 					<?php get_search_form(); ?> 
-					<p>Today is: <?php the_date('Y-m-d', '<h2>', '</h2>'); ?></p>
+					<p>Today is: <?php echo date('m-d-Y'); ?></p>
                      
                  </div>
                  
