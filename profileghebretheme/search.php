@@ -7,13 +7,14 @@
 	</aside>
  
 	<div id="main"><!--open #main --> 
+			
+		<div id="content" class="search">
 			<div class="breadcrumbs">
 					<?php if(function_exists('bcn_display'))
 					{
 						bcn_display();
 					}?>
 				</div>
-		<div id="content" class="search">	
 			<?php if (have_posts()) : ?>
 				 
 						<h2 class="pagetitle">Search Results</h2>
