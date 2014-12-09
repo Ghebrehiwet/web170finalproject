@@ -179,7 +179,7 @@ margin-bottom:10%;
 
 #middle { 
 	float: left;
-	width: 100%; 
+	width: 96%; 
 	background-color: white;
 	padding:0 2%;
 }
@@ -868,7 +868,10 @@ header  nav:active, nav:hover {
 	#sidebar-left  h3.widget-title {
 	display: none;
 }
-	
+
+#middle {  
+	width: 100%;  
+}
  
 
 #sidebar-left ul li  {
