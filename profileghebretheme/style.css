@@ -455,12 +455,14 @@ p {
 blockquote{
   display:block;
   background: #ccc;
-  padding: 15px 20px 15px 45px;
+  padding: 15px 20px 15px 20px;
   margin: 0 0 20px;
   position: relative; 
   font-family: Georgia, serif;
   font-size: 16px;
   line-height: 1.2em;
+  clear: both;
+  
   }
 
   
@@ -1114,8 +1116,7 @@ div.hentry {
 
 					
 /* POST ITEMS */
-.post-box {
-	border-bottom:1px solid #DDDDDD;
+.post-box {	
 	margin-bottom:10px; 
 }
 
