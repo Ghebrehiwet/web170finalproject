@@ -524,7 +524,7 @@ div#wpcf7-f55-p12-o1 form.wpcf7-form {
 	}*/
 	 
 	footer { 
-		padding: 25px 0 15px 0;
+		padding: 0;
 	}
 	
 	 #validation ul li {
@@ -566,7 +566,7 @@ text-align: center;
 	  
 	   
 footer  { 
-		   padding: 25px 0 15px 0;
+		   padding: 0;
 	  }
 	  
  header {
@@ -765,7 +765,7 @@ h1, h2, h3, h4, h5, h6  {
 	 
 	footer  {
 		font-size: 0.75em;
-		padding: 25px 0 15px 0;	
+		padding: 0;	
 	} 
 		
 	nav {
