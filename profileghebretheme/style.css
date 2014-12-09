@@ -1131,6 +1131,10 @@ div.post-box ul {
 }
 
 
+div#wpcf7-f55-p12-o1 {
+	clear: both;
+}
+
 /* GALLERY ITEMS */
 .gallery {
 	margin: auto;
