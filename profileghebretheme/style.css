@@ -356,7 +356,8 @@ footer ul li {
 }
 
 #copyright  ul  li a { 
-	color: #411718;  
+	color: #411718;
+	display: inherit;
 }
 
 #copyright  ul  li a:hover {  
