@@ -5,6 +5,8 @@ Version: 1.0
 Author: Ghebrehiwet Ghebremedhin 
 */
 
+@import url(http://fonts.googleapis.com/earlyaccess/notosansethiopic.css);
+
  body, body * {
    margin: 0;
    padding: 0;
@@ -27,7 +29,7 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 
 body {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times New Roman", Times, serif, 'Noto Sans Ethiopic';
 	font-size: 1em;
 	line-height: 125%; 
 	width:100%;
